@@ -77,3 +77,8 @@ button {
 #solucoes:hover #opcoes {
     display: block;
 }
+
+#botao {
+background-color: rgb(114, 114, 216);
+
+}
