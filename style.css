@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
 }
 
-nav{
+nav {
     display: flex;
 
     align-items: center;
@@ -20,33 +20,52 @@ nav{
     border-bottom: 2px solid black;
 }
 
-h1{
+h1 {
     margin-right: 30px;
 }
 
-a{
+a {
     text-decoration: none;
 
     color: black;
 }
 
-button{
+button {
     margin-left: auto;
 
     padding: 10px;
 }
 
 
+/* SOLUÇÕES */
+
+#solucoes {
+    position: relative;
+}
+
 
 /* OPÇÕES */
 
-#opcoes{
+#opcoes {
     display: none;
 
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 220px;
+
     padding: 10px;
+
+    background-color: white;
+
+    border: 1px solid black;
+
+    z-index: 1000;
 }
 
-#opcoes a{
+#opcoes a {
     display: block;
 
     padding: 10px;
@@ -55,6 +74,6 @@ button{
 
 /* MOSTRAR AS OPÇÕES */
 
-#solucoes:hover #opcoes{
+#solucoes:hover #opcoes {
     display: block;
 }
