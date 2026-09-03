@@ -131,6 +131,164 @@ footer {
 
 #parte-baixo {
     text-align: center;
+}
+/* -------------------------------------------------------------------
+-----------------------------------------------------------------------
+----------------------------------------------------------------------- */
 
-   
+
+
+/* =========================
+          PRINCIPAL
+========================= */
+
+main {
+    width: 100%;
+}
+
+
+/* SECTION 1 */
+
+.hero {
+    min-height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 10%;
+    gap: 50px;
+    background-color: yellow;
+}
+
+.hero-texto {
+    width: 50%;
+    background-color: red;
+       flex-direction: column;
+       display: flex;
+       position: relative;
+       display: flex;
+       justify-content: end;
+       
+}
+
+.hero-texto h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    font-size: 20px;
+    margin-bottom: 30px;
+ 
+}
+
+#Botao1 {
+    display: flex;
+    gap: 14vw;
+}
+#Botao2 {
+    display: flex;
+    grid-area: 14vw;
+}
+
+.botoes button {
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+
+/* IMAGEM */
+
+.hero-imagem {
+    width: 40%;
+    height: 300px;
+
+    border: 2px solid black;
+    background-color: pink;
+    border-radius: 25px;
+    display: flex;
+}
+
+#div-interna{
+    background-color: blueviolet;
+    width: 100%;
+    height: 89%;
+    margin-top: 2.1rem;
+    border-radius: 0px 0px 25px 25px;
+}
+
+
+/*SECTION 2*/
+
+.recursos {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.recursos h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.recursos > p {
+    margin-bottom: 40px;
+}
+
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 30%;
+    min-height: 150px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    padding: 25px;
+
+    text-align: left;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+
+/* SECTION 3*/
+
+.chamada {
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 50px;
+}
+
+.chamada h1 {
+    margin-bottom: 10px;
+}
+
+.chamada p {
+    margin-bottom: 25px;
+}
+
+.chamada button {
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.bo{
+
 }
