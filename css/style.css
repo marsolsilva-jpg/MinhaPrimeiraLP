@@ -79,7 +79,7 @@ button {
 }
 
 #botao {
-background-color: rgb(114, 114, 216);
+background-color: rgb(192, 192, 210);
 
 }
 /* -------------------------------------------------------------------
@@ -90,8 +90,8 @@ footer {
     border-top: 2px solid black;
 
     padding: 15px 60px;
-
-    margin-top: 320px;
+    
+    margin-top: 32px;
     gap: 2rem;
     display:flex;
     flex-direction: column;
@@ -158,12 +158,12 @@ main {
 
     padding: 60px 10%;
     gap: 50px;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0);
 }
 
 .hero-texto {
     width: 50%;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
        flex-direction: column;
        display: flex;
        position: relative;
@@ -205,13 +205,13 @@ main {
     height: 300px;
 
     border: 2px solid black;
-    background-color: pink;
+    background-color: rgb(146, 142, 142);
     border-radius: 25px;
     display: flex;
 }
 
 #div-interna{
-    background-color: blueviolet;
+    background-color: rgb(218, 216, 219);
     width: 100%;
     height: 89%;
     margin-top: 2.1rem;
